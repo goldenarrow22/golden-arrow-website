@@ -6,7 +6,7 @@
   margin:0; padding:0;
   box-sizing: border-box;
   font-family: cursive;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
   text-decoration: none;
   outline:none; border:none;
   transition: all .2s ease-out;
@@ -96,11 +96,17 @@ header{
 header .logo{
   font-size: 2.5rem;
   color:#333;
+  display: flex;
+  align-items: center;
 }
 
-header .logo i{
-  padding-right: .5rem;
-  color:var(--red);
+.logo-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-div .logo img {
+  padding-right: 20%;
 }
 
 header .navbar a{
@@ -157,6 +163,10 @@ header .navbar a:hover{
 
 .features .stick{
   padding:0 2rem;
+}
+
+.features .box-container {
+  width: 100%;
 }
 
 .features .box-container .title{
