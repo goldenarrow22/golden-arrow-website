@@ -2,11 +2,15 @@
   --red:#f53b57;
 }
 
+@font-face {
+  font-family: 'Comic Sans MS';
+  src: url("comic-sans-ms/comic.ttf");
+}
+
 *{
   margin:0; padding:0;
   box-sizing: border-box;
-  /* font-family: cursive; */
-  /* text-transform: capitalize; */
+  font-family: 'Comic Sans MS';
   text-decoration: none;
   outline:none; border:none;
   transition: all .2s ease-out;
