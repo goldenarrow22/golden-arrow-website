@@ -105,6 +105,11 @@ header .logo{
   flex-direction: row;
 }
 
+.logo-div .logo-text {
+  font-family: 'Gloock', serif;
+  font-weight: bolder;
+}
+
 .logo-div .logo img {
   padding-right: 20%;
 }
