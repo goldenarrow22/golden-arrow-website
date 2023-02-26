@@ -67,12 +67,12 @@ section{
 }
 
 .up-and-down::before{
-  background:url(../images/img-top.png) no-repeat;
+  background:url(../images/img-top.png);
   top:-6rem;
 }
 
 .up-and-down::after{
-  background:url(../images/img-down.png) no-repeat;
+  background:url(../images/img-down.png);
   bottom:-6rem;
 }
 
@@ -98,7 +98,7 @@ header{
 }
 
 header .logo{
-  font-size: 2.5rem;
+  font-size: 2rem;
   color:#333;
   display: flex;
   align-items: center;
@@ -383,8 +383,16 @@ header .navbar a:hover{
   overflow: hidden;
 }
 
+.pricing .box-container .box img{
+  height:12rem;
+  width:12rem;
+  padding:1rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 .pricing .box-container .box h3{
-  font-size: 4rem;
+  font-size: 2.5rem;
   color:#333;
 }
 
@@ -393,24 +401,10 @@ header .navbar a:hover{
   color:var(--red);
 }
 
-.pricing .box-container .box .price span{
-  font-size: 2.5rem;
-}
-
 .pricing .box-container .box p{
   font-size:1.7rem;
   padding:1rem 0;
   color:#666;
-}
-
-.pricing .box-container .box .choise{
-  position: absolute;
-  top:0; right:-5rem;
-  background:var(--red);
-  color:#fff;
-  font-size: 2rem;
-  padding:.6rem 5.5rem;
-  transform: rotate(45deg);
 }
 
 .contact .image img{
@@ -652,6 +646,10 @@ header .navbar a:hover{
     align-items: flex-start;
   }
 
+  .logo .logo-text {
+    font-size: 1rem;
+  }
+
 }
 
 @media (max-width:450px){
@@ -680,6 +678,14 @@ header .navbar a:hover{
 
   .contact .row .gform iframe {
     height: 70vh;
+  }
+
+  .footer {
+    font-size: 1.6rem;
+  }
+
+  .logo-div .logo-text {
+    font-size: 2rem;
   }
   
 }
