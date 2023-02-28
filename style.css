@@ -357,6 +357,7 @@ header .navbar a:hover{
 .teacher .box-container .box p{
   color:#666;
   font-size: 1.4rem;
+  text-align: justify;
 }
 
 .pricing{
@@ -406,6 +407,7 @@ header .navbar a:hover{
   font-size:1.7rem;
   padding:1rem 0;
   color:#666;
+  text-align: justify;
 }
 
 .contact .image img{
