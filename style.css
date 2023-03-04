@@ -526,9 +526,6 @@ header .navbar a:hover{
 
 
 
-
-
-
 @media (max-width:1200px){
 
   html{
@@ -665,6 +662,10 @@ header .navbar a:hover{
 
   .logo-div .logo-text {
     font-size: 2rem;
+  }
+
+  #preloader {
+    background-size: 70%;
   }
   
 }
