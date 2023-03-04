@@ -28,6 +28,10 @@
 
 </head>
 <body>
+
+<!-- Preloader code -->
+
+<div id="preloader"></div>
     
 <!-- header section starts  -->
 
@@ -383,6 +387,17 @@ window.onscroll = () =>{
     navbar.classList.remove('nav-toggle');
 }
 
+</script>
+
+<script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function(){
+        // fade out the preloader using CSS animation
+        loader.style.opacity = "0";
+        setTimeout(function() {
+            loader.style.display = "none";
+        }, 500); // change the delay time as needed
+    });
 </script>
 
 </body>
