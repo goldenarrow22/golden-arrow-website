@@ -410,6 +410,28 @@ header .navbar a:hover{
   text-align: justify;
 }
 
+.timing {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3%;
+}
+
+.timing img {
+  max-width: 100%;
+}
+
+.timing table {
+  /* height: 35vh; */
+  width: 70%;
+}
+
+table, th, td {
+  border: 2px solid #999;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 2rem;
+}
+
 .contact .image img{
   width:25vw;
   /* align-self: flex-end; */
@@ -711,6 +733,22 @@ header .navbar a:hover{
 
   #loader {
     background-size: 70%;
+  }
+
+  .timing img {
+    display: none;
+  }
+
+  .timing {
+    display: inline-flex;
+  }
+
+  .timing table {
+    width: 100%;
+  }
+
+  .contact {
+    flex-direction: column;
   }
   
 }
